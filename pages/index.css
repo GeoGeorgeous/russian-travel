@@ -32,7 +32,11 @@
 @import url(../blocks/places/__link/places__link.css);
 @import url(../blocks/places/__paragpaph/places__paragpaph.css);
 @import url(../blocks/places/__image/places__image.css);
-/* Overlay Section */
+/* Cover Section */
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
 
 
