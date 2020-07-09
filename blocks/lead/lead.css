@@ -6,3 +6,13 @@
   align-items: center;
   padding-top: 56px;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    width: calc(100% - (48px * 2));}
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    width: 100%;}
+}
