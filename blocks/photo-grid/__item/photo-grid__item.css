@@ -2,4 +2,9 @@
   /* object-fit: fill; */
   width: 284px;
   height: 213px;
+  transition: transform 0.25s;
+}
+
+.photo-grid__item:hover {
+  transform: scale(1.045);
 }
