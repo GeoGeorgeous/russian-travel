@@ -10,3 +10,7 @@
   justify-content: center;
   align-items: center;
 }
+
+.cover:hover .cover__overlay {
+  opacity: 0.8;
+}

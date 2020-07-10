@@ -6,4 +6,9 @@
   font-weight: normal;
   text-decoration: none;
   color: #fff;
+  transition: opacity 0.2s;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }
