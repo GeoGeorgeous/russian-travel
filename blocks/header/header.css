@@ -2,7 +2,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: calc(100% - (48 * 2));
-  height: 52px;
+  width: calc(100% - (48px * 2));
+  min-height: 52px;
   margin: 28px 48px 0 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: calc(100% - (24px * 2));
+    margin: 28px 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    width: calc(100% - (16px * 2));
+    margin: 16px 16px 0 16px;
+  }
 }
