@@ -2,7 +2,7 @@
   /* object-fit: fill; */
   width: 284px;
   height: 213px;
-  transition: transform 0.25s;
+  transition: transform .25s;
 }
 
 .photo-grid__item:hover {

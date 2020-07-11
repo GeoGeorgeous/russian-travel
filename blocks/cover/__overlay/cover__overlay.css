@@ -6,6 +6,6 @@ z-index: 0;
 height: 100%;
 width: 100%;
 background-color: #2A2C2F;
-opacity: 0.3;
-transition: opacity 0.4s;
+opacity: .3;
+transition: opacity .4s;
 }
