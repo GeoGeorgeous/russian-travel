@@ -5,3 +5,11 @@
   line-height: 16px;
   text-align: right;
 }
+
+@media screen and (max-width: 637px) {
+  .footer__copyright {
+    margin: 0 16px 0 16px;
+    line-height: 14px;
+  }
+}
+

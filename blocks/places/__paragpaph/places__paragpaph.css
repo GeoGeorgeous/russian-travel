@@ -7,7 +7,19 @@
 }
 
 .places__paragpaph:last-of-type {
-  margin: 0;
+  margin-bottom: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .places__paragpaph {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 637px) {
+  .places__paragpaph {
+    margin: 0 16px 24px 16px;
+  }
+}
 
