@@ -13,14 +13,17 @@
 @media screen and (max-width: 1024px) {
   .places__place {
     grid-template-columns: 440px 1fr;
-    grid-gap: 24px 32px;
+    grid-gap: 48px 32px;
+    margin-bottom: 80px;
   }
 }
 
+
 @media screen and (max-width: 768px) {
   .places__place {
-    grid-template-columns: 340px minmax(content-min, content-max);
-    grid-gap: 28px 48px;
+    grid-template-columns: 340px 1fr;
+    grid-gap: 48px 28px;
+    margin-bottom: 72px;
   }
 }
 
@@ -28,5 +31,6 @@
   .places__place {
     grid-template-columns: 1fr;
     grid-gap: 32px;
+    margin-bottom: 48px;
   }
 }

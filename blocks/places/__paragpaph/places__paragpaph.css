@@ -10,7 +10,7 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 939px) {
   .places__paragpaph {
     font-size: 16px;
     line-height: 26px;
