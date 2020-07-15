@@ -6,30 +6,33 @@
   align-items: center;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1280px) {
   .photo-grid {
     width: calc(100% - (48px * 2));
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
   .photo-grid {
     width: calc(100% - (48px * 2));
-    grid-gap: 16px 16px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-gap: 14px 14px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .photo-grid {
     width: calc(100% - (24px * 2));
-    grid-gap: 14px 14px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 16px 16px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .photo-grid {
     width: calc(100% - (16px * 2));
+    grid-template-columns: minmax(0, 1fr);
     grid-gap: 12px;
   }
 }
