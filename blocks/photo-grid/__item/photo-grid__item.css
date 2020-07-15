@@ -1,9 +1,13 @@
 .photo-grid__item {
   width: 100%;
   object-fit: cover;
-  transition: transform .25s;
+  transition: all .15s ease;
+
 }
 
 .photo-grid__item:hover {
   transform: scale(1.045);
+  -webkit-box-shadow: 0px 0px 21px 9px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 21px 9px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 21px 9px rgba(0,0,0,0.2);
 }

@@ -8,15 +8,15 @@
   text-transform: uppercase;
 }
 
-@media screen and (min-width: 1280px) {
-  .lead__caption {
-    padding-left: calc((100% - (100% - 148px * 2)) / 2);
-  }
-}
-
 @media screen and (max-width: 1280px) {
   .lead__caption {
     padding-left: calc((100% - (100% - 48px * 2)) / 2);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__caption {
+    padding-left: calc((100% - (100% - 148px * 2)) / 2);
   }
 }
 
