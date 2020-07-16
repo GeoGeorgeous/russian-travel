@@ -1,5 +1,7 @@
 /* Normalize */
 @import url(../vendor/normalize.css);
+/* Fonts */
+@import url(../vendor/fonts.css);
 /* Root */
 @import url(../blocks/root/root.css);
 /* Header */
