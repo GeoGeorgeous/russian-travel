@@ -1,3 +1,4 @@
+/* top div with z-index 2 to make the whole cover section a link */
 .cover__link-wrapper {
   display: block;
   text-decoration: none;
