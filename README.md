@@ -6,7 +6,7 @@
 </p>
 
 
-### Russian Travel
+### About the project
 **Russian Travel** is an adaptive and responsive website that was made without using frameworks, in pure CSS, and available at any screen width. The website was built for educational purposes while studying at [Practicum by Yandex](https://praktikum.yandex.ru/).
 
 It's the summer of 2020, and the coronavirus has changed lots of people's plans. Cancelled flights, closed railway stations, airports and borders. No one knows exactly when it all will end, but it will for sure, and we will be able to return to normal life, to travelling.
